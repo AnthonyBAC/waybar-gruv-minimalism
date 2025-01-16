@@ -103,12 +103,6 @@ window#waybar {
     color: @text;
 }
 
-@keyframes blink {
-    to {
-        background-color: @backgroundlight;
-        color: @textcolor2;
-    }
-}
 
 #battery.critical:not(.charging) {
     color: #f53c3c;
